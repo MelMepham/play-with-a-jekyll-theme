@@ -30,14 +30,14 @@
 			text-decoration: none;
 
 			&:hover svg {
-				fill: #000;
+				fill: $logo-pink;
 			}
 		}
 
 		svg {
 			width: 25px;
 			height: 25px;
-			fill: $light-grey;
+			fill: $dark-blue;
 		}
 	}
 }

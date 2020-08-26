@@ -5,7 +5,7 @@ categories:
   - Vegan
   - Condiments
 featured_image: >-
-  https://images.unsplash.com/photo-1486893732792-ab0085cb2d43?w=1560&h=940&fit=crop
+  /uploads/egg-free-vegan-mayonnaise-recipe-3377722-hero-02-5bdb197746e0fb0051dfd51c.jpg
 recipe:
   servings:
   prep: 15 minutes

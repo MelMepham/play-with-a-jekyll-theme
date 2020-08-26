@@ -1,5 +1,6 @@
 .button, input[type="submit"] {
 	-webkit-appearance: none;
+	-moz-appearance: none;
 	background: $turquoise;
 	cursor: pointer;
 	border: 1px solid $dark-blue;
@@ -35,6 +36,7 @@
 
 input[type="submit"] {
 	-webkit-appearance: none;
+	-moz-appearance: none;
 	margin-top: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -101,6 +103,8 @@ legend {
 
 select {
 	width: 100%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 	// padding: 20px;
 	height: 39px;
 	// background: #fff;

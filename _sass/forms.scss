@@ -1,18 +1,18 @@
 .button, input[type="submit"] {
-	background: #fff;
+	background: $turquoise;
 	cursor: pointer;
-	border: 1px solid #666;
-	color: #000;
+	border: 1px solid $dark-blue;
+	color: $dark-blue;
 	text-decoration: none;
 	padding: 5px 10px;
 	display: inline-flex;
-  align-items: flex-end;
+  	align-items: flex-end;
 	margin: 0;
 	font-size: .8em;
 
 	&:hover {
-		background: #000;
-		color: #fff;
+		background: $dark-blue;
+		color: $turquoise;
 	}
 
 	&:focus {
@@ -21,7 +21,7 @@
 }
 
 .button {
-	border-color: #000;
+	border-color: $dark-blue;
 
 	a {
 		color: #000;
@@ -44,11 +44,12 @@ input[type="text"], input[type="email"], textarea {
 	font-size: 1.1em;
 	padding: 10px;
 	box-sizing: border-box;
-	border: 1px solid #666;
+	border: 1px solid $dark-blue;
 	resize: none;
 
 	&:focus {
-		outline: 2px solid #333;
+		border: none;
+		outline: 4px solid $logo-pink;
 	}
 }
 
@@ -98,13 +99,15 @@ legend {
 
 select {
 	width: 100%;
-	padding: 20px;
-	height: 43px;
-	background: #fff;
-	border-color: rgba(0,0,0,0);
+	// padding: 20px;
+	height: 39px;
+	// background: #fff;
+	border-color: $dark-blue;
 	font-size: 1em;
-	outline: 1px solid #000;
+	font-family: 'Josefin Sans', sans-seri;
+	// outline: 0.8px solid $dark-blue;
 	&:focus {
-		outline: 2px solid #333;
+		outline: 4px solid $logo-pink;
+		border: none;
 	}
 }

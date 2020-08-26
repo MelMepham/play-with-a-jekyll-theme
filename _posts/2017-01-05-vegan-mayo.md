@@ -1,0 +1,37 @@
+---
+date: 2017-01-05 00:00:00
+title: Vegan mayo
+categories:
+  - Vegan
+  - Condiments
+featured_image: >-
+  https://images.unsplash.com/photo-1486893732792-ab0085cb2d43?w=1560&h=940&fit=crop
+recipe:
+  servings:
+  prep: 15 minutes
+  cook:
+  ingredients_markdown: |-
+    * 1 can of chickpeas
+    * 1 tsp white vinegar
+    * 1/2 tsp fine salt
+    * 1/2 tsp sugar
+    * 1 tsp lemon juice
+    * 2 tsp dry mustard
+    * 3/4 cup sunflower oil
+  directions_markdown: >-
+    1. drain the aquafiber from the can of chickpeas into a mixing bowl
+
+    2. Add the vinegar, salt, sugar, lemon juice and mustard powder
+
+    3. start wisking the aquafiber mix (You can use a blender, electric wisk or
+    a stick blender)
+
+    4. slowly pour in the sunflower oil, it should start to emulsify within the
+    first minute or two.&nbsp;
+
+    5. Enjoy\!&nbsp;
+---
+
+Aquafiber is a pretty amazing thing\! The vinegar and lemon help the aquafiber emulsify with the oil and it's very hard to screw up\!
+
+Try adding garlic (Raw or roasted) to your mayonnaise and turn it into Aioli.

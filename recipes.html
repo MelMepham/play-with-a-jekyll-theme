@@ -1,14 +1,26 @@
 ---
 title: Recipes
 image_view: true
+permalink: /recipes/
+
 ---
+<script type="text/javascript" src="{{ site.baseurl }}/js/recipe-form.js"></script>
 <h1>Recipes</h1>
-
-
+{{page.url | absolute_url}}
 
 {% if page.image_view %}
+	<form id="recipePageForm">
+		<select id="recipePageSelect">
+			<option value="all">Show all</option>
+			{% for category in site.categories %}
+				<option value={{category[0]}}>{{ category[0] }}</option>
+			{% endfor %}
+		<select>
+		<input id="recipePageSubmit" type="submit" value="Go" />
+	</form>
+
 	{% for category in site.categories %}
-		<h2>{{ category[0] }}</h2>
+		<h2 id="{{ category[0] }}">{{ category[0] }}</h2>
 		<div class="recipes">
 			{% for recipe in category[1] %}
 				<div class="recipe" style="background-image: url('{{ recipe.featured_image }}')">
